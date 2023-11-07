@@ -10,7 +10,7 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)
 
-include_directories("./imgui")
+include_directories("./include/imgui")
 
 set(SOURCES
     src/main.cpp
@@ -19,17 +19,17 @@ set(SOURCES
 
 set(HEADERS
     include/drone.hpp
-    imgui/backends/imgui_impl_glfw.h
-    imgui/backends/imgui_impl_opengl3.h
+    include/imgui/backends/imgui_impl_glfw.h
+    include/imgui/backends/imgui_impl_opengl3.h
 )
 
 set(IMGUI_SOURCES
-    imgui/imgui.cpp
-    imgui/imgui_draw.cpp
-    imgui/imgui_widgets.cpp
-    imgui/imgui_tables.cpp
-    imgui/backends/imgui_impl_glfw.cpp
-    imgui/backends/imgui_impl_opengl3.cpp
+    include/imgui/imgui.cpp
+    include/imgui/imgui_draw.cpp
+    include/imgui/imgui_widgets.cpp
+    include/imgui/imgui_tables.cpp
+    include/imgui/backends/imgui_impl_glfw.cpp
+    include/imgui/backends/imgui_impl_opengl3.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS} ${IMGUI_SOURCES})

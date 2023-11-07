@@ -1,0 +1,8 @@
+# Ignoriere compile_commands.json
+compile_commands.json
+
+# Ignoriere das gesamte build-Verzeichnis
+/build/
+
+# Ignoriere das .cache-Verzeichnis
+/.cache/

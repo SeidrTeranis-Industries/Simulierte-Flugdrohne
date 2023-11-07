@@ -1,3 +1,0 @@
-/home/jan/SeidrTeranis Industries/SeidrTeranis Defense Systems/Simulierte-Flugdrohne/build/CMakeFiles/Drohnensteuerung.dir
-/home/jan/SeidrTeranis Industries/SeidrTeranis Defense Systems/Simulierte-Flugdrohne/build/CMakeFiles/edit_cache.dir
-/home/jan/SeidrTeranis Industries/SeidrTeranis Defense Systems/Simulierte-Flugdrohne/build/CMakeFiles/rebuild_cache.dir
